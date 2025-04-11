@@ -1,0 +1,48 @@
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.App {
+  min-height: 100vh;
+  background-color: #29b6f6; /* light sky blue */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+
+.weather-container {
+  margin-top: 30px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  width: 200px;
+}
+
+button {
+  padding: 10px 15px;
+  margin-left: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.weather-result {
+  margin-top: 20px;
+}
+
+
+.title {
+  color: white;
+  font-size: 42px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  font-family: 'Segoe UI', sans-serif;
+}
